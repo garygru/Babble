@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0440C31C2F0C4D00E3B54B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4E0440C21C2F0C4D00E3B54B /* Credits.rtf */; };
+		4E0440C51C2F0C5300E3B54B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0440C41C2F0C5300E3B54B /* MainMenu.xib */; };
+		4E06D04413D323EE0086D93B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E06D04313D323EE0086D93B /* Cocoa.framework */; };
+		4E91D3511C2D51B1004763BF /* disksave.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E91D34B1C2D51B1004763BF /* disksave.png */; };
+		4E91D3521C2D51B1004763BF /* mailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E91D34C1C2D51B1004763BF /* mailIcon.png */; };
+		4E91D3551C2D51B1004763BF /* sayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E91D34F1C2D51B1004763BF /* sayButton.png */; };
+		4E91D3561C2D51B1004763BF /* VoicemailIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4E91D3501C2D51B1004763BF /* VoicemailIcon.icns */; };
+		4E91D35E1C2F0A9B004763BF /* SpeechSynth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91D35A1C2F0A9B004763BF /* SpeechSynth.m */; };
+		4E91D35F1C2F0A9B004763BF /* VoiceMailAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91D35C1C2F0A9B004763BF /* VoiceMailAppDelegate.m */; };
+		4E91D3621C2F0AB3004763BF /* Babble-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E91D3601C2F0AB3004763BF /* Babble-Info.plist */; };
+		4E91D3641C2F0ABA004763BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91D3631C2F0ABA004763BF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0440C21C2F0C4D00E3B54B /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = src/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		4E0440C41C2F0C5300E3B54B /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = src/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		4E06D03F13D323EE0086D93B /* Babble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E06D04313D323EE0086D93B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E06D04613D323EE0086D93B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E06D04713D323EE0086D93B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E06D04813D323EE0086D93B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E91D34B1C2D51B1004763BF /* disksave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disksave.png; path = Resources/disksave.png; sourceTree = "<group>"; };
+		4E91D34C1C2D51B1004763BF /* mailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mailIcon.png; path = Resources/mailIcon.png; sourceTree = "<group>"; };
+		4E91D34F1C2D51B1004763BF /* sayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sayButton.png; path = Resources/sayButton.png; sourceTree = "<group>"; };
+		4E91D3501C2D51B1004763BF /* VoicemailIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = VoicemailIcon.icns; path = Resources/VoicemailIcon.icns; sourceTree = "<group>"; };
+		4E91D3581C2F0A9B004763BF /* scripts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scripts.h; path = src/scripts.h; sourceTree = "<group>"; };
+		4E91D3591C2F0A9B004763BF /* SpeechSynth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeechSynth.h; path = src/SpeechSynth.h; sourceTree = "<group>"; };
+		4E91D35A1C2F0A9B004763BF /* SpeechSynth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeechSynth.m; path = src/SpeechSynth.m; sourceTree = "<group>"; };
+		4E91D35B1C2F0A9B004763BF /* VoiceMailAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoiceMailAppDelegate.h; path = src/VoiceMailAppDelegate.h; sourceTree = "<group>"; };
+		4E91D35C1C2F0A9B004763BF /* VoiceMailAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoiceMailAppDelegate.m; path = src/VoiceMailAppDelegate.m; sourceTree = "<group>"; };
+		4E91D3601C2F0AB3004763BF /* Babble-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Babble-Info.plist"; path = "src/Babble-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4E91D3611C2F0AB3004763BF /* Babble-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Babble-Prefix.pch"; path = "src/Babble-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4E91D3631C2F0ABA004763BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E06D03C13D323EE0086D93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E06D04413D323EE0086D93B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E06D03413D323EE0086D93B = {
+			isa = PBXGroup;
+			children = (
+				4E91D3581C2F0A9B004763BF /* scripts.h */,
+				4E91D3591C2F0A9B004763BF /* SpeechSynth.h */,
+				4E91D35A1C2F0A9B004763BF /* SpeechSynth.m */,
+				4E91D35B1C2F0A9B004763BF /* VoiceMailAppDelegate.h */,
+				4E91D35C1C2F0A9B004763BF /* VoiceMailAppDelegate.m */,
+				4E06D04A13D323EE0086D93B /* Supporting Files */,
+				4E06D0AE13D3995C0086D93B /* Resources */,
+				4E06D04213D323EE0086D93B /* Frameworks */,
+				4E06D04013D323EE0086D93B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E06D04013D323EE0086D93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E06D03F13D323EE0086D93B /* Babble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E06D04213D323EE0086D93B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E06D04313D323EE0086D93B /* Cocoa.framework */,
+				4E06D04613D323EE0086D93B /* AppKit.framework */,
+				4E06D04713D323EE0086D93B /* CoreData.framework */,
+				4E06D04813D323EE0086D93B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E06D04A13D323EE0086D93B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E0440C41C2F0C5300E3B54B /* MainMenu.xib */,
+				4E0440C21C2F0C4D00E3B54B /* Credits.rtf */,
+				4E91D3631C2F0ABA004763BF /* main.m */,
+				4E91D3601C2F0AB3004763BF /* Babble-Info.plist */,
+				4E91D3611C2F0AB3004763BF /* Babble-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = VoiceMail;
+			sourceTree = "<group>";
+		};
+		4E06D0AE13D3995C0086D93B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E91D34B1C2D51B1004763BF /* disksave.png */,
+				4E91D34C1C2D51B1004763BF /* mailIcon.png */,
+				4E91D34F1C2D51B1004763BF /* sayButton.png */,
+				4E91D3501C2D51B1004763BF /* VoicemailIcon.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E06D03E13D323EE0086D93B /* Babble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E06D07113D323EF0086D93B /* Build configuration list for PBXNativeTarget "Babble" */;
+			buildPhases = (
+				4E06D03B13D323EE0086D93B /* Sources */,
+				4E06D03C13D323EE0086D93B /* Frameworks */,
+				4E06D03D13D323EE0086D93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Babble;
+			productName = VoiceMail;
+			productReference = 4E06D03F13D323EE0086D93B /* Babble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E06D03613D323EE0086D93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Studio Gelantino";
+			};
+			buildConfigurationList = 4E06D03913D323EE0086D93B /* Build configuration list for PBXProject "Babble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E06D03413D323EE0086D93B;
+			productRefGroup = 4E06D04013D323EE0086D93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E06D03E13D323EE0086D93B /* Babble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E06D03D13D323EE0086D93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E91D3551C2D51B1004763BF /* sayButton.png in Resources */,
+				4E0440C31C2F0C4D00E3B54B /* Credits.rtf in Resources */,
+				4E91D3521C2D51B1004763BF /* mailIcon.png in Resources */,
+				4E91D3511C2D51B1004763BF /* disksave.png in Resources */,
+				4E91D3621C2F0AB3004763BF /* Babble-Info.plist in Resources */,
+				4E0440C51C2F0C5300E3B54B /* MainMenu.xib in Resources */,
+				4E91D3561C2D51B1004763BF /* VoicemailIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E06D03B13D323EE0086D93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E91D35F1C2F0A9B004763BF /* VoiceMailAppDelegate.m in Sources */,
+				4E91D35E1C2F0A9B004763BF /* SpeechSynth.m in Sources */,
+				4E91D3641C2F0ABA004763BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E06D06F13D323EF0086D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		4E06D07013D323EF0086D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		4E06D07213D323EF0086D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceMail/Babble-Prefix.pch";
+				INFOPLIST_FILE = "VoiceMail/Babble-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Babble;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E06D07313D323EF0086D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceMail/Babble-Prefix.pch";
+				INFOPLIST_FILE = "VoiceMail/Babble-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Babble;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E06D03913D323EE0086D93B /* Build configuration list for PBXProject "Babble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E06D06F13D323EF0086D93B /* Debug */,
+				4E06D07013D323EF0086D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E06D07113D323EF0086D93B /* Build configuration list for PBXNativeTarget "Babble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E06D07213D323EF0086D93B /* Debug */,
+				4E06D07313D323EF0086D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E06D03613D323EE0086D93B /* Project object */;
+}
