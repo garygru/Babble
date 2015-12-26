@@ -77,7 +77,7 @@
 - (IBAction)save:(id)sender 
 {
     NSSavePanel *savePanel = [NSSavePanel savePanel];
-    [savePanel setAllowedFileTypes:[NSArray arrayWithObject:[NSString stringWithString:@"aiff"]]];
+    [savePanel setAllowedFileTypes:[NSArray arrayWithObject:@"aiff"]];
     [savePanel setNameFieldStringValue:@"voice"];
     
     [savePanel beginSheetModalForWindow:self.window completionHandler:^(NSInteger result) 
